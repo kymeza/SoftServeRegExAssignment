@@ -9,6 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegExClassTests", "RegExCla
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FA652546-7DEF-4339-A18D-561A02C7D4F1}"
 	ProjectSection(SolutionItems) = preProject
+		Create documentation.txt = Create documentation.txt
 		Regex implementation and Tests.txt = Regex implementation and Tests.txt
 	EndProjectSection
 EndProject

@@ -1,3 +1,17 @@
+﻿User:
+Now we are requested to write the documentation of our solutions. To do so, these are the guidelines:
+o	Update Readme.md with 
+	Application description: 1 paragraph, 2-5 Sentences.
+	Regex implementation description: 1 paragraph, 4-10 Sentences.
+	Information on how to run the developed application locally.
+
+Can you help me with that?
+
+ChatGPT:
+Certainly! Here's a suggested content for your `Readme.md` based on the provided guidelines:
+
+---
+
 ### Application Description
 
 The application is a .NET 6 Class Library that offers functionality to validate string inputs based on a specific set of requirements. Users can verify if a given string adheres to constraints such as the presence of uppercase, lowercase, digits, special characters, and length, all while ensuring there are no whitespace characters.
@@ -9,6 +23,10 @@ The implemented regular expression is a comprehensive solution designed for flex
 ### Running the Application Locally
 
 1. Ensure you have .NET 6 SDK installed on your machine. If not, download it from [here](https://dotnet.microsoft.com/download/dotnet/6.0).
-2. Clone the repository: `git clone https://github.com/kymeza/SoftServeRegExAssignment`.
-3. Navigate to the repository's directory.
+2. Clone the repository: `git clone [Your Repository URL]`.
+3. Navigate to the repository's directory: `cd [Your Repository Name]`.
 4. To run the tests, execute the following command: `dotnet test`.
+
+---
+
+Replace `[Your Repository URL]` and `[Your Repository Name]` with appropriate values for your project. Adjust the steps if there are additional specifics related to your application's setup and execution.
