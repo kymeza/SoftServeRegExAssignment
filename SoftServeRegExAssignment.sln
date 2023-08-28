@@ -1,6 +1,16 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegExClass", "RegExClass\RegExClass.csproj", "{48E7CE24-44BD-42F6-9C4F-55AEBA6CCE06}"
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.33913.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RegExClass", "RegExClass\RegExClass.csproj", "{48E7CE24-44BD-42F6-9C4F-55AEBA6CCE06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegExClassTests", "RegExClassTests\RegExClassTests.csproj", "{C8C86FEE-D909-483C-8335-28760D31C843}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FA652546-7DEF-4339-A18D-561A02C7D4F1}"
+	ProjectSection(SolutionItems) = preProject
+		Regex implementation and Tests.txt = Regex implementation and Tests.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,5 +22,15 @@ Global
 		{48E7CE24-44BD-42F6-9C4F-55AEBA6CCE06}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{48E7CE24-44BD-42F6-9C4F-55AEBA6CCE06}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{48E7CE24-44BD-42F6-9C4F-55AEBA6CCE06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8C86FEE-D909-483C-8335-28760D31C843}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8C86FEE-D909-483C-8335-28760D31C843}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8C86FEE-D909-483C-8335-28760D31C843}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8C86FEE-D909-483C-8335-28760D31C843}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D6FC7332-EAFF-4986-B0D0-3AF366215ABD}
 	EndGlobalSection
 EndGlobal
