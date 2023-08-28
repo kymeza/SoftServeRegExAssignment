@@ -1,6 +1,6 @@
 ﻿namespace RegExClass;
 
-public class Class1
+public class RegEx
 {
     
 }
